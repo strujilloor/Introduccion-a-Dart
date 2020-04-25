@@ -7,6 +7,7 @@ void main() {
   final rawJson    = '{ "nombre": "Logan", "poder":"Regeneración" }';
   Map parsedJson = json.decode( rawJson ); // convierte un json en un Map
   // final Map parsedJson = jsonDecode(rawJson); es igualmente valido
+	
   print( 'parsed Json: $parsedJson' ); // output: parsed Json: {nombre: Logan, poder: Regeneración}
   
   // Instancia mediante un constructor con nombre
