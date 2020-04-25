@@ -1,6 +1,6 @@
 void main() {
   
-  // Invocación de la función
+  // Invocación (Call) de la función
   String mensaje = saludar2( nombre: 'Fernando', texto: 'Hola' ); // (paramName: value)
   
   print( mensaje );
